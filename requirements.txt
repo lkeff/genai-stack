@@ -8,7 +8,7 @@ sentence_transformers==2.2.2
 Pillow
 fastapi
 PyPDF2
-torch==2.8.0
+torch==2.9.0
 pydantic
 uvicorn
 sse-starlette
@@ -20,3 +20,5 @@ langchain-google-genai
 tornado>=6.4.2 # not directly required, pinned by Snyk to avoid a vulnerability
 requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
 transformers>=4.53.0 # not directly required, pinned by Snyk to avoid a vulnerability
+filelock>=3.20.3 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
